@@ -1,27 +1,77 @@
 :root {
-    --background-color1: ghostwhite;
-    --background-color2: pink;
+    --background-color1: white;
+    --background-color2: rgb(241, 243, 248);
+    --border-color1: rgb(241, 243, 248);
+}
+html {
+    padding: 40px;
 }
 body {
     display: flex;
     height: 80%;
     width: 80%;
     margin: auto;
-    border: 1px solid black;
-    position: fixed;
+    border: 1px solid var(--border-color1);
+    box-shadow: 0px 0px 11px 1px #9B9B9B
 }
+/* About me side */
 .side1 {
     background-color: var(--background-color1);
     height: 100vh;
     width: 25vw;
+    border: 1px solid var(--border-color1)
 }
 aside {
     border: 2px solid transparent;
     height: 40%;
-    background-color: beige;
+    background-color: var(--background-color1);
+}
+.about-me {
+    margin: 30px auto auto 20px;
+}
+.about-me h2 {
+    margin-left: 20px;
+}
+
+/* Profile picture */
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 15px;
+}
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.socials-list {
+    list-style-type: none;
+    display: flex;
+    column-gap: 15px;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+.socials-list li {
+    text-decoration: none;
+}
+li > a {
+    text-decoration: none;
+    color: inherit;
+}
+.socials p:first-of-type {
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: monospace;
+}
+.socials p:last-of-type {
+    margin-left: 27px;
+    margin-top: 10px;
+    font-family: monospace;
 }
 .side2 {
     background-color: var(--background-color2);
     height: 100vh;
     width: 75vw;
+    border: 1px solid var(--border-color1)
 }
