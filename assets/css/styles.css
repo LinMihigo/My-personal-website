@@ -1,3 +1,27 @@
-* {
-    
+:root {
+    --background-color1: ghostwhite;
+    --background-color2: pink;
+}
+body {
+    display: flex;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    position: fixed;
+}
+.side1 {
+    background-color: var(--background-color1);
+    height: 100vh;
+    width: 25vw;
+}
+aside {
+    border: 2px solid transparent;
+    height: 40%;
+    background-color: beige;
+}
+.side2 {
+    background-color: var(--background-color2);
+    height: 100vh;
+    width: 75vw;
 }
