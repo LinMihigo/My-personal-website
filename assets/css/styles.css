@@ -74,6 +74,8 @@ li > a {
 }
 
 /* Projects and interests side */
+/* Projects */
+
 .side2 {
     background-color: var(--background-color2);
     height: 100vh;
@@ -92,12 +94,20 @@ li > a {
     gap: 20px;
 }
 .projects .project-details {
-    
-    padding: 3px;
     border: 0.2px solid var(--border-color2);
-    margin-bottom: 5px;
     background-color: var(--background-color3);
 }
 .project-details > p, .project-details > h5 {
-    text-align: start;
+    text-align: left;
+}
+.project-details > h5 {
+    margin-top: -1px;
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.project-details > p {
+    margin-top: -15px;
+    font-size: 0.9rem;
+    padding-left: 10px;
 }
