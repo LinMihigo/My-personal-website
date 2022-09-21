@@ -85,11 +85,15 @@ li > a {
     margin: auto;
 }
 .projects {
-    display: flex;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
 }
 .projects .project-details {
-    height: 15%;
-    width: 25%;
+    
     padding: 3px;
     border: 0.2px solid var(--border-color2);
     margin-bottom: 5px;
