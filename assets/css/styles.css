@@ -83,7 +83,7 @@ li > a {
 .side2 {
     background-color: var(--background-color2);
     height: 100vh;
-    width: 75vw;
+    width: 55vw;
     border-left: 0.1px solid var(--border-color2);
 }
 .about-me-details {
@@ -126,9 +126,9 @@ li > a {
 
 /* Interests*/
 .interests-details > ul {
+    width: 100%;
     display: flex;
     overflow-x: auto;
-    
 }
 .interests-details > ul > li {
     margin: 10px;
@@ -140,6 +140,12 @@ li > a {
 .interests-details ul {
     list-style-type: none;
 }
-.interests-icon {
-    padding-left: 0px;
+.interests-icon:nth-of-type(1),
+.interests-icon:nth-of-type(2),
+.interests-icon:nth-of-type(3),
+.interests-icon:nth-of-type(4),
+.interests-icon:nth-of-type(5),
+.interests-icon:nth-of-type(6),
+.interests-icon:nth-of-type(7) {
+    padding-right: 50px;
 }
