@@ -89,8 +89,7 @@ li > a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 20px;
+    gap: 20px;
 }
 .projects .project-details {
     
