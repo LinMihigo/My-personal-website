@@ -123,3 +123,23 @@ li > a {
     font-family: monospace;
     padding-left: 10px;
 }
+
+/* Interests*/
+.interests-details > ul {
+    display: flex;
+    overflow-x: auto;
+    
+}
+.interests-details > ul > li {
+    margin: 10px;
+}
+.interests-details img {
+    height: 100px;
+    width: 100px;
+}
+.interests-details ul {
+    list-style-type: none;
+}
+.interests-icon {
+    padding-left: 0px;
+}
