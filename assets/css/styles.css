@@ -43,12 +43,11 @@ aside {
 .profile-picture {
     width: 200px;
     height: 200px;
-    padding-bottom: 10px;
 }
 .profile-picture img {
     max-width: 100%;
     height: auto;
-    margin-left: 3px;
+    margin: auto;
     object-fit: cover;
     border-radius: 50%;
 }
